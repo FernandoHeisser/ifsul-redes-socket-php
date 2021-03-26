@@ -1,0 +1,18 @@
+CREATE DATABASE revenda;
+
+USE revenda;
+
+CREATE TABLE veiculo(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	modelo VARCHAR(45) NOT NULL,
+    marca VARCHAR(45) NOT NULL,
+	versao VARCHAR(45) NOT NULL,
+    ano INT(4) NOT NULL,
+    anos VARCHAR(4) NOT NULL,
+    cor VARCHAR(45) NOT NULL,
+    kilo INT NOT NULL
+);
+
+SELECT * FROM veiculo;
+
+DROP TABLE veiculo;
